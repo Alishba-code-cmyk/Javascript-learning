@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://v2.jokeapi.dev/joke/Any?safe-mode"></script>
+    
+    <div class="container"> 
+        <div class="top">
+            <h1>jokes</h1>
+            <p>random jokes to entertain you.</p>
+        </div>
+        <div class="main">
+            <div class="quote-area">
+                <p id="quote">
+                    "Life is about not knowing, having to change, taking the moment and making the best of it, without knowing what's going to happen next"
+                </p>
+                <p id="joke"></p>
+            </div>
+        </div>
+        <div class="bottom">
+            <button id="btn">Generate new joke</button>
+        </div>
+        <div class="end">
+            <p>Made using DADJOKES API</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

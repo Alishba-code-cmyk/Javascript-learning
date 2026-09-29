@@ -1,2 +1,4 @@
-# Simon-says-game
-this game is created by using javascript,html and css.
+# Minor-projects
+-> simon-says game
+-> jokes generator
+# Major-projects
